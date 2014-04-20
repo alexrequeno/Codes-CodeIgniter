@@ -1,4 +1,8 @@
 <?php
+/*
+Modelo para el login en codeigniter
+
+*/
 class Login_model extends CI_Model
 {
 	public function login_usr($usr, $pass)
