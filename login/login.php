@@ -76,6 +76,7 @@ class Login extends CI_Controller
 						'nombre_usuario' => $check_usr->nombre_usuario,
 						'acceso' => $check_usr->acceso
 						);
+					
 					//return $data['usr'] = $this->session->userdata('name_usuario');
 					#mandamos el array a sesion
 					$this->session->set_userdata($data);
