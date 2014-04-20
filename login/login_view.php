@@ -44,7 +44,6 @@ body {
 <body>
 
     <div class="container">
-
       <form class="form-signin" action="<?php echo base_url()?>login/log_user" method="post">
         <h2 class="form-signin-heading"><i class="fa fa-compress"></i> Bodeger</h2>
         <input name="nombre_usuario" type="text" class="form-control" placeholder="Tu Usuario" autofocus>
@@ -52,5 +51,4 @@ body {
         <input name="token" value="<?=$token ?>" type="hidden">
         <button class="btn btn-lg btn-primary btn-block" type="submit"><span class="glyphicon glyphicon-log-in"></span> Iniciar Sesión</button>
       </form>
-
     </div>
