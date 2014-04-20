@@ -1,1 +1,4 @@
-Este es un login
+Version CI: 2.1.4
+=================
+
+Este es un login con redireccionamiento por niveles de acceso.
