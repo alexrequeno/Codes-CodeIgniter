@@ -1,4 +1,20 @@
 Version CI: 2.1.4
+Librerias: url, form_validation
+helpers: form
+
+Se uso Bootstrap 3 para la vista
 =================
 
-Este es un login con redireccionamiento por niveles de acceso.
+
+->Agrega/quita del switch del controlador Login dependiendo de los niveles de acceso que tengas.
+
+->Cambia  nombre_usuario por tu campo donde guardes los nombres de usuarios
+
+->Cambia pass_usuario por tu campo donde guardes el password de los usuarios
+
+->Cambia acceso por tu campo donde guardes el nivel de acceso de cada usuario, de este campo dependera 
+la modificacion del switch del controlador, en mi caso use 1 y 2.
+
+2014-04-20-Alex Requeno
+
+
